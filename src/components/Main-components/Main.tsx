@@ -37,6 +37,11 @@ export default class Main extends React.Component {
           >
             <div className="logo">
               <img src={logo} alt="" />
+              {this.state.collapsed ? null : (
+                <h4 style={{ margin: '15px 0 0 15px', color: '#ffffff' }}>
+                  ODDS BACK OFFICE
+                </h4>
+              )}
             </div>
             <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
               <Menu.Item key="1" icon={<PieChartOutlined />}>
