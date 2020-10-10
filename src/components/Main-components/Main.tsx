@@ -15,7 +15,7 @@ export default class Main extends React.Component {
       <React.Fragment>
         <Layout>
           <Sider>
-            <h1 style={{ color: 'red' }}> this header side</h1>
+            <h1 className="myclass"> this header side</h1>
           </Sider>
           <Layout>
             <Header>Header</Header>
